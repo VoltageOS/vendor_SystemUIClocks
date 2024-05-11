@@ -10,11 +10,9 @@ android_app_import {
     owner: "SystemUIClocks",
     apk: "proprietary/system_ext/priv-app/SystemUIClocks-BigNum/SystemUIClocks-BigNum.apk",
     certificate: "platform",
-    dex_preopt: {
-        enabled: false,
-    },
     privileged: true,
     system_ext_specific: true,
+    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 }
 
 android_app_import {
@@ -22,11 +20,9 @@ android_app_import {
     owner: "SystemUIClocks",
     apk: "proprietary/system_ext/priv-app/SystemUIClocks-Calligraphy/SystemUIClocks-Calligraphy.apk",
     certificate: "platform",
-    dex_preopt: {
-        enabled: false,
-    },
     privileged: true,
     system_ext_specific: true,
+    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 }
 
 android_app_import {
@@ -34,11 +30,9 @@ android_app_import {
     owner: "SystemUIClocks",
     apk: "proprietary/system_ext/priv-app/SystemUIClocks-Growth/SystemUIClocks-Growth.apk",
     certificate: "platform",
-    dex_preopt: {
-        enabled: false,
-    },
     privileged: true,
     system_ext_specific: true,
+    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 }
 
 android_app_import {
@@ -46,11 +40,9 @@ android_app_import {
     owner: "SystemUIClocks",
     apk: "proprietary/system_ext/priv-app/SystemUIClocks-Inflate/SystemUIClocks-Inflate.apk",
     certificate: "platform",
-    dex_preopt: {
-        enabled: false,
-    },
     privileged: true,
     system_ext_specific: true,
+    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 }
 
 android_app_import {
@@ -58,11 +50,9 @@ android_app_import {
     owner: "SystemUIClocks",
     apk: "proprietary/system_ext/priv-app/SystemUIClocks-Metro/SystemUIClocks-Metro.apk",
     certificate: "platform",
-    dex_preopt: {
-        enabled: false,
-    },
     privileged: true,
     system_ext_specific: true,
+    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 }
 
 android_app_import {
@@ -70,9 +60,7 @@ android_app_import {
     owner: "SystemUIClocks",
     apk: "proprietary/system_ext/priv-app/SystemUIClocks-NumOverlap/SystemUIClocks-NumOverlap.apk",
     certificate: "platform",
-    dex_preopt: {
-        enabled: false,
-    },
     privileged: true,
     system_ext_specific: true,
+    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 }
